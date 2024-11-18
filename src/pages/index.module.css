@@ -1,0 +1,85 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons a {
+  background: rgba(255, 255, 255, 0.9);
+  color: #764ba2;
+  transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+  background: white;
+  transform: translateY(-2px);
+}
+
+.main {
+  padding: 2rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.blogList {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: var(--ifm-card-background-color);
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-card-shadow);
+}
+
+.blogItems {
+  list-style: none;
+  padding: 0;
+}
+
+.blogItems li {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blogItems a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.blogDate {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+}
+
+.blogMore {
+  text-align: right;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.blogMore a {
+  text-decoration: none;
+}
