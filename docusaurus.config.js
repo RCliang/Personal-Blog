@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Liangs Tech',
-  tagline: '写一个个性化的标语',
+  tagline: '个人技术博客',
   favicon: 'img/favicon.ico',
 
   // 修改为您的网站URL
@@ -20,8 +20,8 @@ const config = {
   baseUrl: '/',
 
   // 修改为您的GitHub用户名和仓库名
-  organizationName: 'your-github-username', 
-  projectName: 'your-repository-name',
+  organizationName: 'RCliang', 
+  projectName: 'Personal-Blog',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -73,7 +73,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '您的博客名称',
+        title: 'Liangs',
         logo: {
           alt: '网站Logo',
           src: 'img/logo.svg',
@@ -87,7 +87,7 @@ const config = {
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/your-username',
+            href: 'https://github.com/RCliang',
             label: 'GitHub',
             position: 'right',
           },
@@ -110,20 +110,20 @@ const config = {
             items: [
               {
                 label: '掘金',
-                href: 'https://juejin.cn/user/your-username',
+                href: 'https://juejin.cn/user/2214844889312699',
               },
               {
                 label: '知乎',
-                href: 'https://www.zhihu.com/people/your-username',
+                href: 'https://www.zhihu.com/people/ricodong',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-username',
+                href: 'https://github.com/RCliang',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 您的名字. 基于 Docusaurus 构建.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Liang. 基于 Docusaurus 构建.`,
       },
       prism: {
         theme: prismThemes.github,
