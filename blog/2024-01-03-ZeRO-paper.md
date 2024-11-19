@@ -2,13 +2,14 @@
 slug: ZeRO-paper
 title: ZeRO论文精读
 authors: [liangdong]
-tags: [docusaurus]
+tags: [paper]
 ---
 
 # ZeRO论文精读的一些知识点
 
 所谓ZeRO，即指**0冗余的优化器**（Zero Rredundancy Optimizer）,能做到trillion级别的模型参数。
 
+<!-- truncate -->
 - 数据并行DP不能降低每个卡的内存使用
 
 并行方式：
