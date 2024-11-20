@@ -83,7 +83,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '文档',
+            label: '论文精读',
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
