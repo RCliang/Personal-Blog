@@ -47,7 +47,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className={styles.blogSection}>
           <Heading as="h2" className={styles.blogTitle}>
-            最新文章
+            最新博客
           </Heading>
           <div className={styles.blogList}>
             {sortedPosts.map((post) => (
@@ -78,7 +78,7 @@ export default function HomepageFeatures() {
             <Link
               className="button button--secondary button--lg"
               to="/blog">
-              查看所有文章 →
+              查看所有博客 →
             </Link>
           </div>
         </div>

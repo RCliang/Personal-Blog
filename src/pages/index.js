@@ -48,7 +48,7 @@ function BlogList() {
 
   return (
     <div className={styles.blogList}>
-      <Heading as="h2">最新文章</Heading>
+      <Heading as="h2">最新博客</Heading>
       <ul className={styles.blogItems}>
         {recentPosts.map((post) => (
           <li key={post.id}>
@@ -65,7 +65,7 @@ function BlogList() {
         <Link
           className="button button--secondary button--sm"
           to="/blog">
-          查看更多文章 →
+          查看更多博客 →
         </Link>
       </div>
     </div>

@@ -11,7 +11,7 @@ vivo AIlab最近提出了一种针对移动设备上多模态大语言模型（M
 - **性能强**，在 OpenCompass 基准测试中 40 亿参数模型里平均得分最高达 66.1 且超越一系列大参数模型（如 MiniCPM-V-2.6、InternVL2-8B）。 
 
 和其他多模态大模型对比：(真就**六边形战士**吗？)
-![表现对比](img/BlueLM-V-3B.jpeg)
+![表现对比](img/BlueLM-V-3B.jpeg)   
 那为什么能取得如此好的效果呢？
 ### 1、网络结构：
 ![网络结构](img/BlueLM-structure.jpeg)
