@@ -26,13 +26,13 @@ GAT主要可以解决融合周边特征时权重是固定的，不够灵活。�
 而GAT很显而易见就是把注意力机制使用到提取周边1阶邻居节点的特征上了，假设节点i有一个邻居节点j，节点的embedding向量分别是N维，即(N,)
 那会有一个权重矩阵（要学习的参数）N*M,将节点变为（M,），然后再将变化后的i,j拼接到一起
 
-<!-- $$
+$$
 \mathbf{x}^{\prime}_i = \sum_{j \in \mathcal{N}(i) \cup \{ i \}} \alpha_{i,j} \mathbf{\Theta}_t \mathbf{x}_{j}
 $$
 
 $$
 \alpha_{i,j} = \frac{\exp\left(\mathrm{LeakyReLU}\left(\mathbf{a}^{\top}_{s} \mathbf{\Theta}_{s} \mathbf{x}_i + \mathbf{a}^{\top}_{t} \mathbf{\Theta}_{t} \mathbf{x}_j\right)\right)}{\sum_{k \in \mathcal{N}(i) \cup \{ i \}} \exp\left(\mathrm{LeakyReLU}\left(\mathbf{a}^{\top}_{s} \mathbf{\Theta}_{s} \mathbf{x}_i + \mathbf{a}^{\top}_{t} \mathbf{\Theta}_{t} \mathbf{x}_k\right)\right)}
-$$ -->
+$$
 从注意力公式上来看，alphai,j是节点i和节点j之间的注意力系数，先观察分子：  
 - 1、计算节点$i$和节点$j$的特征向量的线性变换结果。  
 - 2、然后，通过$LeakyReLU$激活函数引入非线性。  
