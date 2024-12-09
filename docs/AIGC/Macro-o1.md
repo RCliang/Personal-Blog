@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 
-# “Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions”
+# Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions”
     由阿里巴巴国际数字商务的 MarcoPolo 团队撰写，主要介绍了Marco-o1模型，其旨在解决缺乏明确标准和难以量化奖励的更广泛领域的问题。
 ## 主要亮点
 - 基于开源COT（思维链）数据的微调,微调的模型是Qwen2-7B-Instruct。
