@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 3
 ---
 
 # InternVL2通过MPO增强多模态大模型的推理能力，效果极佳

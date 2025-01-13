@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # ROBUSTFT:噪声鲁棒的 LLM 监督微调
 [论文链接](https://arxiv.org/abs/2412.14922), [github链接](https://github.com/luo-junyu/RobustFT)  
 
