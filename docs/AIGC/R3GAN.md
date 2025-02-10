@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # 谁说GAN已经dead了，一种新的基线GAN网络R3GAN
 ## 引言
 现在这个时间点能看到GAN相关的论文真是不多见了，必须看一下。这篇[论文](https://arxiv.org/abs/2501.05441)提出了一种新的生成对抗网络（GAN）基线模型R3GAN，通过改进损失函数和网络架构，提高了GAN的训练稳定性和性能，在多个数据集上取得了不错的效果。论文也公布了[github链接](https://github.com/brownvc/R3GAN)
