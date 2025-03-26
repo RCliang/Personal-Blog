@@ -1,5 +1,5 @@
 ---
-sidebar_position: 12
+sidebar_position: 13
 ---
 # Phi4-mini技术报告
 在QwQ-32B的技术报告出来前，我们先看个小模型的技术报告吧，Phi4-mimi和Phi4-multimodal。[论文链接](https://arxiv.org/pdf/2503.01743)
